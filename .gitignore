@@ -1,3 +1,4 @@
+
 .venv/
 venv/
 __pycache__/
@@ -5,15 +6,23 @@ __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
 .env
-data/raw/*
-!data/raw/README.md
+
+# Dataset: allow uploading to GitHub
+# data/raw/*
+
+# Processed data
 data/processed/*
 !data/processed/.gitkeep
+
+# Trained models
 models/*.joblib
 models/*.pkl
+
+# Results
 results/figures/*
 !results/figures/.gitkeep
 results/metrics/*
 !results/metrics/.gitkeep
+
 .DS_Store
 Thumbs.db
