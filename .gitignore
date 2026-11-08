@@ -1,14 +1,23 @@
 
+# Virtual environments
 .venv/
 venv/
+
+# Python cache files
 __pycache__/
 *.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Testing
 .pytest_cache/
+
+# Environment variables
 .env
 
-# Dataset: allow uploading to GitHub
-# data/raw/*
+# Dataset: allow uploading raw data to GitHub
+# data/raw/**
 
 # Processed data
 data/processed/*
@@ -18,11 +27,9 @@ data/processed/*
 models/*.joblib
 models/*.pkl
 
-# Results
-results/figures/*
-!results/figures/.gitkeep
-results/metrics/*
-!results/metrics/.gitkeep
+# Results: track all figures and metrics
+# Do not ignore results/figures or results/metrics
 
+# OS files
 .DS_Store
 Thumbs.db
