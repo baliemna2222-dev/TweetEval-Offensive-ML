@@ -1,0 +1,4 @@
+split,rows,rows == official size,missing text_clean,empty text_clean,labels unchanged,% offensive
+train,11916,True,0,0,True,33.07
+val,1324,True,0,0,True,34.67
+test,860,True,0,0,True,27.91

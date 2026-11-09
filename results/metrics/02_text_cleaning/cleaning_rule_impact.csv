@@ -1,0 +1,11 @@
+,tweets_affected,% of train
+HTML entity (&amp; ...),487,4.1
+URL,0,0.0
+@mention,11058,92.8
+#hashtag,1727,14.5
+contraction / apostrophe (kept),3817,32.0
+masked profanity f*** (kept),30,0.3
+emphasis *word* (removed),70,0.6
+punctuation / symbol removed,9962,83.6
+emoji / non-ASCII removed,2975,25.0
+upper-case letters,11310,94.9

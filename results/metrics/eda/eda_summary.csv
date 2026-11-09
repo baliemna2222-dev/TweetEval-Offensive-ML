@@ -1,0 +1,4 @@
+split,non-offensive,offensive,total,% offensive,% non-offensive,avg_words,avg_chars
+train,7975,3941,11916,33.07,66.93,22.02,125.76
+val,865,459,1324,34.67,65.33,23.34,132.83
+test,620,240,860,27.91,72.09,23.75,144.74
