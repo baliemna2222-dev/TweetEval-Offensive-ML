@@ -1,0 +1,1 @@
+The final fitted pipeline is saved as `best_model.joblib`. Generated model files are ignored by Git.

@@ -1,0 +1,1 @@
+Put the six TweetEval split files here: `train_text.txt`, `train_labels.txt`, `val_text.txt`, `val_labels.txt`, `test_text.txt`, `test_labels.txt`. One tweet/label per line; paired files must have equal line counts and matching order. Raw data is ignored by Git. Check dataset terms before redistributing it.
