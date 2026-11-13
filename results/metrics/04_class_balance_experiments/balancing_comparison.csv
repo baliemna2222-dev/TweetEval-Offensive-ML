@@ -1,0 +1,9 @@
+strategy,train_rows,pct_offensive_in_train,class_weight,accuracy,precision,recall,f1,model
+class_weight,11916,33.1,balanced,0.74018,0.62473,0.62745,0.62609,logistic_regression
+undersampling,7882,50.0,,0.72054,0.58574,0.66231,0.62168,logistic_regression
+oversampling,15950,50.0,,0.74018,0.63723,0.5817,0.6082,logistic_regression
+none,11916,33.1,,0.75227,0.79372,0.38562,0.51906,logistic_regression
+undersampling,7882,50.0,,0.6994,0.55398,0.68192,0.61133,svm
+none,11916,33.1,,0.74924,0.6759,0.53159,0.59512,svm
+class_weight,11916,33.1,balanced,0.72205,0.60179,0.58606,0.59382,svm
+oversampling,15950,50.0,,0.7213,0.60766,0.55338,0.57925,svm

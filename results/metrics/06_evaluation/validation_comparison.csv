@@ -1,0 +1,11 @@
+Model,Group,Accuracy,Precision,Recall,F1
+BERT,optional,0.7983,0.6765,0.8017,0.7338
+BiLSTM,optional,0.7107,0.5651,0.719,0.6328
+Random Forest,required,0.7719,0.7163,0.5664,0.6326
+Logistic Regression,required,0.7402,0.6247,0.6275,0.6261
+Voting ensemble,optional,0.7424,0.6305,0.6209,0.6257
+SGD (modified Huber),optional,0.7409,0.6278,0.6209,0.6243
+SVM (LinearSVC),required,0.7417,0.6303,0.6166,0.6233
+Naive Bayes,required,0.7047,0.5749,0.5686,0.5717
+Complement NB,optional,0.7047,0.5749,0.5686,0.5717
+KNN,required,0.6654,0.5185,0.488,0.5028

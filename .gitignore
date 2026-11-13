@@ -1,28 +1,37 @@
 
+# Virtual environments
 .venv/
 venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 .pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
 .env
 
-# Dataset: allow uploading to GitHub
-# data/raw/*
-
-# Processed data
-data/processed/*
-!data/processed/.gitkeep
+# OS files
+.DS_Store
+Thumbs.db
 
 # Trained models
+# Keep .pt and BERT model files unless they are too large.
+# Ignore temporary model formats if not needed.
 models/*.joblib
 models/*.pkl
 
-# Results
-results/figures/*
-!results/figures/.gitkeep
-results/metrics/*
-!results/metrics/.gitkeep
+# Results: keep generated figures and metrics
+# (Do not ignore these folders if they must be pushed.)
 
-.DS_Store
-Thumbs.db
+# Temporary files
+*.tmp
+*.log
+# Large BERT model weights
+models/bert/model.safetensors
+# Large trained models
+models/*.joblib
+models/bert/model.safetensors

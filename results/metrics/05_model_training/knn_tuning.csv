@@ -1,0 +1,15 @@
+n_neighbors,weights,F1 val (offensive)
+11,distance,0.5028
+11,uniform,0.4989
+21,distance,0.496
+21,uniform,0.4948
+7,uniform,0.489
+15,distance,0.4857
+15,uniform,0.4853
+7,distance,0.4823
+3,distance,0.4671
+3,uniform,0.4642
+5,distance,0.459
+5,uniform,0.4578
+1,uniform,0.4093
+1,distance,0.4093

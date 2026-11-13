@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1
+BERT,0.8302,0.6822,0.7333,0.7068

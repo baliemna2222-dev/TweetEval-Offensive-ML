@@ -1,0 +1,11 @@
+{
+  "name": "BERT",
+  "type": "neural",
+  "location": "models/bert",
+  "params": {
+    "checkpoint": "distilbert-base-uncased",
+    "best_epoch": 3,
+    "lr": 2e-05,
+    "epochs": 3
+  }
+}

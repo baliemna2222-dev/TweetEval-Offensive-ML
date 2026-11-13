@@ -1,0 +1,11 @@
+Model,Group,params
+Logistic Regression,required,{'C': 1}
+SVM (LinearSVC),required,{'C': 0.3}
+Random Forest,required,"{'max_depth': None, 'n_estimators': 300}"
+Naive Bayes,required,{'alpha': 0.3}
+KNN,required,"{'n_neighbors': 11, 'weights': 'distance'}"
+Complement NB,optional,{'alpha': 0.3}
+SGD (modified Huber),optional,{'alpha': 0.0003}
+Voting ensemble,optional,{'members': 'LR+SVM+NB'}
+BiLSTM,optional,"{'best_epoch': 3, 'emb_dim': 128, 'hidden': 128, 'dropout': 0.4, 'lr': 0.002}"
+BERT,optional,"{'checkpoint': 'distilbert-base-uncased', 'best_epoch': 3, 'lr': 2e-05, 'epochs': 3}"
